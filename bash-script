@@ -1,0 +1,25 @@
+What is Bash scripting?
+Concept (short):
+ Bash scripting is writing a file of Bash commands (text) so the computer runs them one after another. It automates tasks you’d otherwise type by hand.
+What (details):
+Bash = the shell program that reads commands.
+
+
+Script = a plain text file with commands and logic (variables, conditions, loops).
+
+
+Filename usually ends .sh but can be anything.
+
+
+Why (importance):
+Automates repetitive work (backups, installs, tests).
+
+
+Makes tasks reproducible and shareable.
+
+
+Teaches programming basics (flow control, variables).
+
+
+Let’s Understand (analogy):
+ Think of a Bash script as a recipe. The shell is the cook that reads the recipe line by line and does each step.
