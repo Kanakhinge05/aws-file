@@ -1,0 +1,40 @@
+# Mini project (Calculator) 
+
+sum() {
+        read -p "Enter Initial number: " NUM1
+        read -p "Enter next number: " NUM2
+        echo SUM=$(( NUM1 + NUM2 ))
+}
+subtraction() {
+        read -p "Enter Initial number: " NUM1
+        read -p "Enter next number: " NUM2
+        echo SUB=$(( NUM1 - NUM2 ))
+}
+multiplication() {
+        read -p "Enter Initial number: " NUM1
+        read -p "Enter next number: " NUM2
+        echo MUL=$(( NUM1 * NUM2 ))
+}
+division() {
+        read -p "Enter Initial number: " NUM1
+        read -p "Enter next number: " NUM2
+        echo DIV=$(( NUM1 / NUM2 ))
+}
+exit_calculation() {
+        echo "Goodluck"
+        exit 0
+}
+while true; do
+        echo  CHOOSE OPERATION 1.sum  2.subtraction  3.multiplication  4.division  5.Exit
+        read -p "Choose an option (1-5): " CHOICE
+    case $CHOICE in
+        1) sum ;;
+        2) subtraction ;;
+        3) multiplication ;;
+        4) division ;;
+        5) exit_calculation ;;
+        *) echo "Invalid option. Try again." ;;
+    esac
+    echo ""
+done
+EOF
