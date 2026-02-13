@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>My Static Website2</title>
+</head>
+<body style="font-family: Arial; text-align: center;">
+   <h1>Welcome to KK world!</h1>
+   <p>This website is hosted on Amazon S3 Simple Storage Service.</p>
+   <p>Vesrion v4</p>
+   <p>Deployed by: <strong>KANAK-KUMAR-HINGE</strong></p>
+</body>
+</html>
